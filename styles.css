@@ -10,13 +10,16 @@ html {
 
 #display {
 	border: 2px solid black;
+	height: 20px;
 	text-align: right;
+	margin: 5px 0px;
 }
 
 #calc-body {
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
+	border: 2px solid black;
 }
 
 #container {
