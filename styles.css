@@ -41,8 +41,9 @@ button {
 	height: 20px;
 }
 
-#numpad #zero {
-	width: calc(50% - 4px);
+#numpad #zero,
+#numpad #clear {
+	width: calc(40% - 4px);
 }
 
 #operators {
