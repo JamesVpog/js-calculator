@@ -31,4 +31,14 @@ function operate(a, operand, b) {
 	}
 }
 
+function addDigitToDisplay(e) {
+	const display = document.querySelector("#display");
+	const datasetNum = e.target.dataset.num;
+	display.textContent += datasetNum;
+}
 
+const numberBtns = document.querySelectorAll("#numpad > button");
+
+numberBtns.forEach((btn) => {
+	btn.addEventListener("click", addDigitToDisplay);
+})
