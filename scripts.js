@@ -47,4 +47,7 @@ numpadBtns.forEach((btn) => {
 
 const a = parseInt(display.textContent);
 
+const clear = document.querySelector("#clear");
+
+clear.addEventListener("click", () => display.textContent = "");
 // when the operations button are pressed, parse the displayText and store the variable
