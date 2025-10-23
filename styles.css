@@ -1,0 +1,61 @@
+body,
+html {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+#display {
+	border: 2px solid black;
+	text-align: right;
+}
+
+#calc-body {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+#container {
+	display: flex;
+	padding: 4px;
+	border: 2px solid black;
+}
+
+#numpad {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100px;
+	margin: 4px;
+	gap: 5px;
+}
+
+
+
+button {
+	margin: 2px;
+	width: calc(25% - 2px);
+	height: 20px;
+}
+
+#numpad #zero {
+	width: calc(50% - 4px);
+}
+
+#operators {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 4px;
+	gap: 5px;
+}
+
+#operators>button {
+
+	margin: 2px;
+	width: 20px;
+	height: 20px;
+}
